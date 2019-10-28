@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.user.musafir_balance.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/musicon"/>
+
+    <EditText
+        android:id="@+id/Mobileno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:hint="Enter the phone no."
+        android:inputType="text"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:hint="Enter the amount"
+        android:inputType="text"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/rechrge"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_rounded"
+        android:text="Continue"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+
+
+</LinearLayout>
